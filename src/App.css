@@ -1,1 +1,33 @@
-/* write your css here */
+/* File: App.css */
+.App-Section {
+  font-family: "Gilroy";
+  width: 90%;
+  max-width: 1027px;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: local("Gilroy Black"), local("Gilroy-Black"),
+    url("./Gilroy-Black/Gilroy-Black.woff2") format("woff2"),
+    url("./Gilroy-Black/Gilroy-Black.woff") format("woff"),
+    url("./Gilroy-Black/Gilroy-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+.form-select {
+  background-image: url("./assests/form-arrow.svg");
+  background-size: 22px;
+  background-position: right 0.7rem center;
+  width: 22px;
+  height: 27px;
+}
+
+::-webkit-calendar-picker-indicator { background: none; display:none; }
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}

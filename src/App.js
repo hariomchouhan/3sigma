@@ -1,10 +1,15 @@
 import "./App.css";
+import Form from "./Components/Form";
+import Header from "./Components/Header";
 
 function App() {
   return (
-    <main class="flex justify-center gap-4 flex-col min-h-screen">
-      <h1 class="text-9xl text-center font-bold">Hari ॐ </h1>
-    </main>
+    <div className="bg-[#EBF0F4] flex justify-center items-center  pt-4">
+      <div className="w-[1027px] h-[2130px] overflow-hidden App-Section mx-4 lg:mx-0">
+        <Header />
+        <Form />
+      </div>
+    </div>
   );
 }
 
